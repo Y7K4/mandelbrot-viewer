@@ -1,0 +1,2 @@
+taichi==0.7.32
+scipy
