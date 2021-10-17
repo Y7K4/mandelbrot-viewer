@@ -5,7 +5,7 @@ import taichi as ti
 from numpy import linspace, array
 from scipy.interpolate import pchip_interpolate
 
-ti.init(arch=ti.gpu)
+ti.init(arch=ti.cpu)
 
 # canvas size
 width = 640
